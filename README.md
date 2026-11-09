@@ -8,7 +8,11 @@ Spesialis pengiriman kargo laut, kapal Pelni, dan angkutan darat (trucking) dari
 
 ## 🚀 Fitur Utama & Keunggulan
 - **60-30-10 Design System:** Tampilan modern, bersih, profesional, dan berorientasi konversi tinggi.
-- **Kalkulator Simulasi Biaya Kargo Instan:** Memungkinkan calon klien menghitung estimasi biaya dan langsung memesan via WhatsApp dengan pesan otomatis terisi.
+- **Top Bar Minimalis:** Navigasi alamat ringkas, jam operasional, dan direct link WhatsApp CS tanpa distraksi.
+- **Promo Spesial Jakarta &rarr; Batam Mulai Rp3.500/Kg:** Penawaran kargo partai besar/tonase untuk mendongkrak konversi.
+- **Kalkulator Simulasi Biaya Kargo Instan:** Mode hitung berat aktual (Kg) dan hitung kubikasi volume ($P \times L \times T / 4.000$) terintegrasi pemesanan WhatsApp.
+- **Galeri Operasional & Fasilitas Armada (Bento Dynamic Grid):** 5 dokumentasi visual (4 Portrait + 1 Landscape Hero) fasilitas gudang, armada, dan penanganan kargo.
+- **Formulir Modal Penjemputan / Konsultasi:** Memudahkan klien menjadwalkan pickup gratis Jakarta & konsultasi packing/asuransi.
 - **Tabel Tarif & Rute Interaktif (Real-time Filter & Search):** Pencarian instan nama kota (Batam, Pekanbaru, Medan, Lampung, dsb) serta filter kategori wilayah.
 - **Sorotan Khusus Rute Kepulauan Riau (FTZ Batam, Pelni & Cargo):** Edukasi komprehensif penanganan kargo laut dan kepabeanan Batam / Kepri.
 - **FAQ Accordion & 4 Langkah Kirim Kargo:** Membangun kepercayaan pelanggan dan menjawab pertanyaan krusial pengiriman kargo.
@@ -22,12 +26,19 @@ Spesialis pengiriman kargo laut, kapal Pelni, dan angkutan darat (trucking) dari
 ```text
 ekspedisi/
 ├── index.html       # Struktur semantik HTML5 lengkap
-├── style.css        # Pure CSS3 design system (60-30-10, Grid, Flexbox, Fluid Typography)
-├── script.js        # Pure Vanilla JS (Search filter, shipping calculator, drawer, accordion)
+├── style.css        # Pure CSS3 design system (60-30-10, Bento Grid, Flexbox)
+├── script.js        # Pure Vanilla JS (Search filter, shipping calculator, modal, drawer)
 ├── vercel.json      # Konfigurasi deployment & security headers Vercel
+├── robots.txt       # Search engine crawler directive
+├── sitemap.xml      # XML sitemap untuk indeks Google
 ├── assets/
-│   ├── logo.png     # Logo resmi SL Express
-│   └── logo.jpeg    # Logo fallback
+│   ├── logo.png     # Logo resmi SL Express (Favicon & Brand)
+│   ├── logo.jpeg    # Logo fallback
+│   ├── galeri-1.jpg # Dokumentasi Penanganan Kargo (Portrait)
+│   ├── galeri-2.jpg # Dokumentasi Pergudangan Cipayung (Portrait)
+│   ├── galeri-3.jpg # Dokumentasi Pemeriksaan Dokumen (Portrait)
+│   ├── galeri-4.jpg # Dokumentasi Fasilitas Armada Truk (Portrait)
+│   └── galeri-5.jpg # Dokumentasi Fasilitas Armada Besar & Hub Jakarta (Landscape Hero)
 └── README.md
 ```
 

@@ -1,0 +1,7 @@
+# Robots.txt for PT. Smail Logistik Express (SL Express)
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://smail-logistik.vercel.app/sitemap.xml
+

@@ -8,7 +8,7 @@
   <!-- Primary Meta Tags -->
   <title>PT. Smail Logistik Express (SL Express) - Ekspedisi Kargo Jakarta & Spesialis Kepulauan Riau</title>
   <meta name="title" content="PT. Smail Logistik Express (SL Express) - Kiriman Cargo Dari Jakarta">
-  <meta name="description" content="Jasa ekspedisi kargo terpercaya dari Jakarta ke seluruh Indonesia. Spesialis rute prioritas Kepulauan Riau (Batam, Tanjung Pinang, Karimun, Natuna). Tarif hemat mulai Rp4.500/Kg, aman, dan bergaransi.">
+  <meta name="description" content="Jasa ekspedisi kargo terpercaya dari Jakarta ke seluruh Indonesia. Spesialis rute prioritas Kepulauan Riau (Batam, Tanjung Pinang, Karimun, Natuna). Tarif hemat promo mulai Rp3.500/Kg, aman, dan bergaransi.">
   <meta name="keywords" content="ekspedisi jakarta batam, kargo jakarta kepri, sl express, smail logistik express, cargo laut jakarta, kargo pelni jakarta, tarif ekspedisi murah, fcl lcl jakarta, trucking fuso tronton">
   <meta name="author" content="PT. Smail Logistik Express">
   <meta name="theme-color" content="#084298">
@@ -17,7 +17,7 @@
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://smail-logistik.vercel.app/">
   <meta property="og:title" content="SL Express - Selalu Sampai, Selalu Aman | Ekspedisi Kargo Jakarta">
-  <meta property="og:description" content="Spesialis pengiriman kargo laut, Pelni Express, dan darat dari Jakarta ke Batam, Kepri, dan seluruh Nusantara. Mulai Rp4.500/kg.">
+  <meta property="og:description" content="Spesialis pengiriman kargo laut, Pelni Express, dan darat dari Jakarta ke Batam, Kepri, dan seluruh Nusantara. Promo spesial mulai Rp3.500/kg.">
   <meta property="og:image" content="assets/logo.png">
 
   <!-- Favicon -->
@@ -34,10 +34,128 @@
 
   <!-- Main Stylesheet -->
   <link rel="stylesheet" href="style.css">
+
+  <!-- Schema.org JSON-LD Structured Data for Logistics SEO -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "LogisticsService",
+        "@id": "https://smail-logistik.vercel.app/#service",
+        "name": "PT. Smail Logistik Express",
+        "alternateName": "SL Express",
+        "url": "https://smail-logistik.vercel.app/",
+        "logo": "https://smail-logistik.vercel.app/assets/logo.png",
+        "image": "https://smail-logistik.vercel.app/assets/logo.png",
+        "description": "Jasa ekspedisi kargo terpercaya dari Jakarta ke seluruh Indonesia. Spesialis rute prioritas Kepulauan Riau (Batam, Tg. Pinang, Tg. Balai Karimun, Natuna) dengan jadwal rutin kapal mingguan dan tarif mulai Rp4.500/Kg.",
+        "telephone": "+628111319553",
+        "priceRange": "Rp4.500 - Rp13.000 / Kg",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Jln. Mpok Nori No. 50, Cipayung",
+          "addressLocality": "Jakarta Timur",
+          "addressRegion": "DKI Jakarta",
+          "postalCode": "13840",
+          "addressCountry": "ID"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": -6.31417,
+          "longitude": 106.89069
+        },
+        "openingHoursSpecification": [
+          {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+            "opens": "08:00",
+            "closes": "18:00"
+          }
+        ],
+        "areaServed": [
+          "Batam", "Tanjung Pinang", "Tanjung Balai Karimun", "Natuna", "Kepulauan Anambas", "Lingga", 
+          "Pekanbaru", "Medan", "Padang", "Lampung", "Palembang", "Jambi", "Denpasar", "Pontianak", "Jakarta"
+        ],
+        "hasOfferCatalog": {
+          "@type": "OfferCatalog",
+          "name": "Layanan Kargo Ekspedisi",
+          "itemListElement": [
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Cargo Laut (Sea Freight)"
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Pelni Express (Terjadwal Cepat)"
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Darat Express (Trucking Fuso & Tronton)"
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Kontainer FCL & LCL"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://smail-logistik.vercel.app/#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Berapa minimal berat pengiriman kargo di SL Express?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Untuk layanan kargo reguler, batas minimal pengiriman adalah 50 Kg sampai 100 Kg tergantung rute kota tujuan. Jika di bawah berat minimum, tetap dapat dikirimkan dengan perhitungan tarif minimum kargo yang jauh lebih ekonomis dibanding kurir reguler."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Apakah SL Express melayani penjemputan barang (Door to Door) di Jakarta?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Ya, kami melayani penjemputan barang (Pick-up) langsung ke lokasi gudang, pabrik, atau toko Anda di seluruh area DKI Jakarta dan sekitarnya (Bekasi, Depok, Tangerang)."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Apakah tersedia layanan packing kayu dan asuransi kargo?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Ya, kami menyediakan opsi packing kayu standar ekspedisi untuk barang pecah belah atau mesin bernilai tinggi serta jaminan asuransi all-risk."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Bagaimana cara mengetahui jadwal keberangkatan kapal ke Batam dan Kepri?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Jadwal kapal kargo dan Pelni berangkat rutin setiap minggu. Anda dapat menghubungi Customer Service via WhatsApp di 08111319553 untuk mendapatkan jadwal sandar kapal terdekat."
+            }
+          }
+        ]
+      }
+    ]
+  }
+  </script>
 </head>
 <body>
 
-  <!-- ==================== TOP BAR ==================== -->
+  <!-- ==================== TOP BAR (MINIMALIST) ==================== -->
   <div class="top-bar" id="topBar">
     <div class="container top-bar-container">
       <div class="top-bar-left">
@@ -45,18 +163,15 @@
           <i class="fa-solid fa-location-dot"></i>
           <span>Jln. Mpok Nori No. 50, Cipayung, Jakarta Timur</span>
         </span>
-        <span class="top-bar-divider">|</span>
-        <span class="top-bar-item">
+      </div>
+      <div class="top-bar-right">
+        <span class="top-bar-item top-bar-hours">
           <i class="fa-regular fa-clock"></i>
           <span>Senin - Sabtu: 08.00 - 18.00 WIB</span>
         </span>
-      </div>
-      <div class="top-bar-right">
-        <span class="top-bar-highlight">
-          <i class="fa-solid fa-anchor"></i> Spesialis Rute Prioritas Jakarta &harr; Kepulauan Riau
-        </span>
-        <a href="https://wa.me/628111319553?text=Halo%20Admin%20SL%20Express,%20saya%20ingin%20tanya%20tarif%20pengiriman" target="_blank" rel="noopener noreferrer" class="top-bar-contact">
-          <i class="fa-brands fa-whatsapp"></i> 08111319553
+        <span class="top-bar-divider">|</span>
+        <a href="https://wa.me/628111319553?text=Halo%20Admin%20SL%20Express,%20saya%20ingin%20tanya%20tarif%20pengiriman" target="_blank" rel="noopener noreferrer" class="top-bar-wa">
+          <i class="fa-brands fa-whatsapp"></i> <span>08111319553</span>
         </a>
       </div>
     </div>
@@ -80,7 +195,8 @@
           <li class="nav-item"><a href="#keunggulan" class="nav-link">Keunggulan</a></li>
           <li class="nav-item"><a href="#layanan" class="nav-link">Layanan</a></li>
           <li class="nav-item"><a href="#tarif" class="nav-link">Tarif & Rute</a></li>
-          <li class="nav-item"><a href="#kepri" class="nav-link">Rute Khusus Kepri</a></li>
+          <li class="nav-item"><a href="#kepri" class="nav-link">Rute Kepri</a></li>
+          <li class="nav-item"><a href="#galeri" class="nav-link">Galeri</a></li>
           <li class="nav-item"><a href="#kontak" class="nav-link">Kontak</a></li>
         </ul>
       </nav>
@@ -115,12 +231,16 @@
         <li><a href="#keunggulan" class="mobile-nav-link"><i class="fa-solid fa-shield-halved"></i> Keunggulan</a></li>
         <li><a href="#layanan" class="mobile-nav-link"><i class="fa-solid fa-boxes-stacked"></i> Layanan Kargo</a></li>
         <li><a href="#tarif" class="mobile-nav-link"><i class="fa-solid fa-calculator"></i> Tarif & Rute</a></li>
-        <li><a href="#kepri" class="mobile-nav-link"><i class="fa-solid fa-map-location-dot"></i> Rute Khusus Kepri</a></li>
+        <li><a href="#kepri" class="mobile-nav-link"><i class="fa-solid fa-map-location-dot"></i> Rute Prioritas Kepri</a></li>
         <li><a href="#cara-kirim" class="mobile-nav-link"><i class="fa-solid fa-list-check"></i> Cara Kirim</a></li>
+        <li><a href="#galeri" class="mobile-nav-link"><i class="fa-solid fa-images"></i> Galeri Operasional</a></li>
         <li><a href="#faq" class="mobile-nav-link"><i class="fa-solid fa-circle-question"></i> Tanya Jawab</a></li>
         <li><a href="#kontak" class="mobile-nav-link"><i class="fa-solid fa-phone"></i> Hubungi Kami</a></li>
       </ul>
       <div class="mobile-drawer-footer">
+        <button type="button" class="btn btn-outline-primary btn-full modal-trigger-btn" style="margin-bottom: 10px;">
+          <i class="fa-solid fa-truck-pickup"></i> Jadwalkan Penjemputan
+        </button>
         <a href="https://wa.me/628111319553?text=Halo%20Admin%20SL%20Express,%20saya%20ingin%20tanya%20tarif%20pengiriman" target="_blank" rel="noopener noreferrer" class="btn btn-accent btn-full">
           <i class="fa-brands fa-whatsapp"></i> Chat WhatsApp 08111319553
         </a>
@@ -138,14 +258,14 @@
         <div class="hero-content">
           <div class="hero-badge">
             <span class="badge-dot"></span>
-            <i class="fa-solid fa-shield-check"></i> Ekspedisi Resmi Berlegalitas & Terpercaya
+            <i class="fa-solid fa-fire-flame-curved text-accent"></i> Promo Spesial Jakarta &rarr; Batam Mulai Rp3.500/Kg
           </div>
           <h1 class="hero-title">
-            Kiriman Cargo Dari Jakarta <span class="text-accent">Aman, Cepat & Murah</span>
+            Kiriman Cargo Dari Jakarta <span class="text-accent">Aman, Cepat & Hemat</span>
           </h1>
-          <p class="hero-tagline">"Selalu Sampai, Selalu Aman"</p>
+          <p class="hero-tagline">"Selalu Sampai, Selalu Aman" &bull; Promo Rute Batam Mulai Rp3.500/Kg</p>
           <p class="hero-description">
-            Solusi pengiriman kargo laut, kapal Pelni, dan darat terpadu dari <strong>Jakarta ke seluruh Nusantara</strong>. Spesialis nomor satu rute <strong>Kepulauan Riau (Batam, Tg. Pinang, Tg. Balai Karimun, Natuna)</strong> dengan jadwal rutin setiap minggu.
+            Solusi pengiriman kargo laut, kapal Pelni, dan darat terpadu dari <strong>Jakarta ke seluruh Nusantara</strong>. Spesialis nomor satu rute <strong>Kepulauan Riau (Batam, Tg. Pinang, Tg. Balai Karimun, Natuna)</strong> dengan promo spesial mulai <strong>Rp3.500/Kg</strong> dan jadwal keberangkatan rutin setiap minggu.
           </p>
 
           <div class="hero-actions">
@@ -153,9 +273,13 @@
               <i class="fa-solid fa-magnifying-glass-dollar"></i>
               <span>Cek Tarif & Rute</span>
             </a>
-            <a href="https://wa.me/628111319553?text=Halo%20Admin%20SL%20Express,%20saya%20ingin%20konsultasi%20pengiriman%20barang" target="_blank" rel="noopener noreferrer" class="btn btn-outline-light btn-lg">
+            <button type="button" class="btn btn-outline-light btn-lg modal-trigger-btn">
+              <i class="fa-solid fa-truck-pickup"></i>
+              <span>Jadwalkan Pickup</span>
+            </button>
+            <a href="https://wa.me/628111319553?text=Halo%20Admin%20SL%20Express,%20saya%20ingin%20konsultasi%20pengiriman%20barang" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-lg hero-wa-btn">
               <i class="fa-brands fa-whatsapp"></i>
-              <span>Konsultasi WhatsApp</span>
+              <span>Chat Admin CS</span>
             </a>
           </div>
 
@@ -167,7 +291,7 @@
             </div>
             <div class="trust-pill">
               <i class="fa-solid fa-tags"></i>
-              <span>Mulai Rp4.500/Kg</span>
+              <span>Mulai Rp3.500/Kg (Promo Batam)</span>
             </div>
             <div class="trust-pill">
               <i class="fa-solid fa-calendar-check"></i>
@@ -210,7 +334,8 @@
                 </label>
                 <select id="calcDest" class="form-control select-control" required>
                   <option value="" disabled selected>Pilih Kota Tujuan...</option>
-                  <option value="batam" data-price="8000" data-lead="4-7 Hari" data-note="Rute Prioritas Utama">Batam (Prioritas) - Rp8.000/Kg</option>
+                  <option value="batam-promo" data-price="3500" data-lead="4-7 Hari" data-note="Promo Tonase Jakarta - Batam" selected>Batam (Promo Tonase) - Mulai Rp3.500/Kg</option>
+                  <option value="batam" data-price="8000" data-lead="4-7 Hari" data-note="Rute Prioritas Utama">Batam (Reguler) - Rp8.000/Kg</option>
                   <option value="tgpinang" data-price="9000" data-lead="8-10 Hari" data-note="Jadwal Kapal Rutin">Tg. Pinang - Rp9.000/Kg</option>
                   <option value="karimun" data-price="13000" data-lead="~15 Hari" data-note="Kargo Laut & Pelni">Tg. Balai Karimun - Rp13.000/Kg</option>
                   <option value="lampung" data-price="4500" data-lead="2-3 Hari" data-note="Darat Cepat">Lampung - Rp4.500/Kg (Termurah)</option>
@@ -224,7 +349,18 @@
                 </select>
               </div>
 
-              <div class="form-group">
+              <!-- Mode Switcher: Berat vs Volume -->
+              <div class="calc-mode-switch" role="tablist" aria-label="Metode Perhitungan Kargo">
+                <button type="button" class="mode-tab active" id="tabModeWeight" role="tab" aria-selected="true">
+                  <i class="fa-solid fa-weight-hanging"></i> Berat Aktual (Kg)
+                </button>
+                <button type="button" class="mode-tab" id="tabModeVolume" role="tab" aria-selected="false">
+                  <i class="fa-solid fa-cube"></i> Dimensi Volume (cm)
+                </button>
+              </div>
+
+              <!-- Input Group: Berat Aktual -->
+              <div class="form-group" id="calcWeightGroup">
                 <label for="calcWeight" class="form-label">
                   <i class="fa-solid fa-weight-hanging text-primary"></i> Estimasi Berat Barang (Kg)
                 </label>
@@ -233,6 +369,40 @@
                   <span class="input-suffix">Kg</span>
                 </div>
                 <span class="input-helper">*Tersedia tarif khusus untuk muatan tonase / partai besar</span>
+              </div>
+
+              <!-- Input Group: Dimensi Volume (Hidden by default) -->
+              <div class="form-group" id="calcVolumeGroup" style="display: none;">
+                <label class="form-label">
+                  <i class="fa-solid fa-arrows-up-down-left-right text-primary"></i> Ukuran Dimensi Paket (cm)
+                </label>
+                <div class="volume-inputs-grid">
+                  <div class="vol-input-box">
+                    <label for="volLength" class="vol-label">Panjang</label>
+                    <div class="input-with-icon">
+                      <input type="number" id="volLength" class="form-control vol-control" placeholder="P" min="1" value="60">
+                      <span class="vol-suffix">cm</span>
+                    </div>
+                  </div>
+                  <div class="vol-input-box">
+                    <label for="volWidth" class="vol-label">Lebar</label>
+                    <div class="input-with-icon">
+                      <input type="number" id="volWidth" class="form-control vol-control" placeholder="L" min="1" value="50">
+                      <span class="vol-suffix">cm</span>
+                    </div>
+                  </div>
+                  <div class="vol-input-box">
+                    <label for="volHeight" class="vol-label">Tinggi</label>
+                    <div class="input-with-icon">
+                      <input type="number" id="volHeight" class="form-control vol-control" placeholder="T" min="1" value="40">
+                      <span class="vol-suffix">cm</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="vol-calculated-badge">
+                  <span>Berat Volume Terhitung: <strong id="volCalculatedWeight">30</strong> Kg</span>
+                  <span class="vol-formula-info">(P × L × T / 4.000)</span>
+                </div>
               </div>
 
               <!-- Calculation Result Output -->
@@ -270,8 +440,8 @@
             <div class="stat-label">Ton Cargo Terkirim</div>
           </div>
           <div class="stat-item">
-            <div class="stat-number">Rp4.500</div>
-            <div class="stat-label">Tarif Mulai / Kg</div>
+            <div class="stat-number">Rp3.500</div>
+            <div class="stat-label">Tarif Promo Mulai / Kg</div>
           </div>
           <div class="stat-item">
             <div class="stat-number">100%</div>
@@ -354,10 +524,10 @@
             </div>
             <h3 class="feature-title">Harga Bersahabat</h3>
             <p class="feature-text">
-              Tarif kargo bersahabat mulai dari <strong>Rp4.500/Kg</strong> tanpa biaya siluman tersembunyi. Solusi paling efisien untuk memangkas biaya logistik operasional bisnis Anda.
+              Tarif kargo bersahabat mulai dari <strong>Rp3.500/Kg</strong> (Promo Spesial Jakarta &rarr; Batam & Kepri) tanpa biaya siluman tersembunyi. Solusi paling efisien untuk memangkas biaya logistik operasional bisnis Anda.
             </p>
             <ul class="feature-list">
-              <li><i class="fa-solid fa-circle-check text-success"></i> Tarif Mulai Rp4.500/Kg</li>
+              <li><i class="fa-solid fa-circle-check text-success"></i> Tarif Promo Mulai Rp3.500/Kg</li>
               <li><i class="fa-solid fa-circle-check text-success"></i> Diskon Tonase Besar / FTL</li>
               <li><i class="fa-solid fa-circle-check text-success"></i> Transparansi Tanpa Hidden Fee</li>
             </ul>
@@ -504,8 +674,23 @@
           <h2 class="section-title">Daftar Tarif & Rute <span class="text-accent">Pengiriman Dari Jakarta</span></h2>
           <div class="section-divider"></div>
           <p class="section-desc">
-            Cari kota tujuan pengiriman Anda pada kolom pencarian di bawah ini. Harga bersahabat mulai Rp4.500/Kg dengan layanan profesional terjamin.
+            Cari kota tujuan pengiriman Anda pada kolom pencarian di bawah ini. Nikmati tarif promo mulai Rp3.500/Kg untuk rute prioritas Batam dengan layanan profesional terjamin.
           </p>
+        </div>
+
+        <!-- Prominent Promo Banner Jakarta - Batam Rp3.500/Kg -->
+        <div class="promo-route-banner">
+          <div class="promo-route-icon">
+            <i class="fa-solid fa-fire-flame-curved"></i>
+          </div>
+          <div class="promo-route-info">
+            <div class="promo-route-badge">PROMO SPESIAL KEPRI</div>
+            <h3 class="promo-route-title">Promo Kargo Jakarta &rarr; Batam Mulai Rp3.500/Kg!</h3>
+            <p class="promo-route-desc">Penawaran tarif super hemat mulai Rp3.500/kg untuk pengiriman kargo partai besar & tonase rutin ke Batam & Kepulauan Riau (S&K berlaku). Layanan cepat via kapal reguler & Pelni Express.</p>
+          </div>
+          <a href="https://wa.me/628111319553?text=Halo%20Admin%20SL%20Express,%20saya%20ingin%20klaim%20Promo%20Batam%20mulai%20Rp3.500/Kg" target="_blank" rel="noopener noreferrer" class="btn btn-accent btn-sm whitespace-nowrap">
+            <i class="fa-brands fa-whatsapp"></i> Klaim Promo Rp3.500/Kg
+          </a>
         </div>
 
         <!-- Filter & Search Toolbar -->
@@ -547,27 +732,29 @@
               </tr>
             </thead>
             <tbody id="routeTableBody">
-              <!-- Batam (Priority Route) -->
-              <tr class="route-row row-priority" data-city="batam kepulauan riau kepri" data-category="kepri">
+              <!-- Batam (Priority & Promo Route) -->
+              <tr class="route-row row-priority" data-city="batam kepulauan riau kepri promo 3500" data-category="kepri">
                 <td class="cell-destination">
                   <div class="dest-badge-wrapper">
                     <span class="dest-name">Batam</span>
                     <span class="badge-priority"><i class="fa-solid fa-fire"></i> Rute Prioritas</span>
+                    <span class="badge-promo-tag">Promo Rp3.500/Kg</span>
                   </div>
                 </td>
                 <td><span class="region-tag tag-kepri">Kepulauan Riau</span></td>
                 <td>
                   <div class="price-wrapper">
-                    <span class="price-val">Rp8.000</span>
+                    <span class="price-val text-accent">Mulai Rp3.500*</span>
                     <span class="price-unit">/ kg</span>
                   </div>
+                  <span class="price-note-mini">Reguler: Rp8.000/kg (*S&K Tonase)</span>
                 </td>
                 <td>
                   <span class="lead-time"><i class="fa-regular fa-clock"></i> 4 - 7 Hari</span>
                 </td>
                 <td><span class="mode-badge"><i class="fa-solid fa-ship"></i> Laut & Kapal Pelni</span></td>
                 <td class="text-center">
-                  <a href="https://wa.me/628111319553?text=Halo%20Admin%20SL%20Express,%20saya%20ingin%20kirim%20cargo%20dari%20Jakarta%20ke%20Batam" target="_blank" rel="noopener noreferrer" class="btn btn-accent btn-sm btn-route-order">
+                  <a href="https://wa.me/628111319553?text=Halo%20Admin%20SL%20Express,%20saya%20ingin%20kirim%20cargo%20dari%20Jakarta%20ke%20Batam%20(Promo%20Mulai%20Rp3.500/Kg)" target="_blank" rel="noopener noreferrer" class="btn btn-accent btn-sm btn-route-order">
                     <i class="fa-brands fa-whatsapp"></i> Kirim ke Batam
                   </a>
                 </td>
@@ -982,6 +1169,137 @@
       </div>
     </section>
 
+    <!-- ==================== GALERI & FASILITAS OPERASIONAL ==================== -->
+    <section class="section section-white" id="galeri">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="badge-subtitle">Dokumentasi Nyata & Fasilitas</span>
+          <h2 class="section-title">Aktivitas Operasional & <span class="text-primary">Fasilitas Armada</span></h2>
+          <div class="section-divider"></div>
+          <p class="section-desc">
+            Dokumentasi penanganan kargo, fasilitas gudang, dan armada pengiriman PT. Smail Logistik Express.
+          </p>
+        </div>
+
+        <div class="gallery-bento-grid">
+          <!-- Featured Landscape Card (Spans 2 columns on desktop) -->
+          <div class="gallery-card card-landscape card-featured" 
+               data-index="0" 
+               data-src="assets/galeri-5.jpg" 
+               data-title="Fasilitas Armada Besar & Gudang Pusat Cipayung" 
+               data-badge="Hub Pusat Jakarta" 
+               data-desc="Pergudangan transit strategis dengan area manuver luas untuk truk fuso, tronton, dan kontainer Jakarta Timur.">
+            <div class="gallery-img-wrapper">
+              <img src="assets/galeri-5.jpg" alt="Fasilitas armada besar dan gudang pusat Jakarta PT Smail Logistik Express" class="gallery-img" loading="lazy">
+              <div class="gallery-zoom-hint">
+                <i class="fa-solid fa-magnifying-glass-plus"></i>
+                <span>Lihat Foto Penuh</span>
+              </div>
+              <div class="gallery-overlay">
+                <span class="gallery-badge badge-accent"><i class="fa-solid fa-warehouse"></i> Hub Pusat Jakarta</span>
+                <div class="gallery-caption">
+                  <h3 class="caption-title">Fasilitas Armada Besar & Gudang Pusat Cipayung</h3>
+                  <p class="caption-text">Pergudangan transit strategis dengan area manuver luas untuk truk fuso, tronton, dan kontainer Jakarta Timur.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Portrait Card 1 -->
+          <div class="gallery-card card-portrait" 
+               data-index="1" 
+               data-src="assets/galeri-1.jpg" 
+               data-title="Bongkar Muat Profesional" 
+               data-badge="Penanganan Kargo" 
+               data-desc="SOP stacking dan handling kargo aman berstandar pelayaran antar pulau.">
+            <div class="gallery-img-wrapper">
+              <img src="assets/galeri-1.jpg" alt="Proses penanganan kargo dan loading muatan kargo kapal Pelni" class="gallery-img" loading="lazy">
+              <div class="gallery-zoom-hint">
+                <i class="fa-solid fa-magnifying-glass-plus"></i>
+                <span>Lihat Foto Penuh</span>
+              </div>
+              <div class="gallery-overlay">
+                <span class="gallery-badge"><i class="fa-solid fa-boxes-packing"></i> Penanganan Kargo</span>
+                <div class="gallery-caption">
+                  <h3 class="caption-title">Bongkar Muat Profesional</h3>
+                  <p class="caption-text">SOP stacking dan handling kargo aman berstandar pelayaran antar pulau.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Portrait Card 2 -->
+          <div class="gallery-card card-portrait" 
+               data-index="2" 
+               data-src="assets/galeri-2.jpg" 
+               data-title="Gudang Transit Cipayung" 
+               data-badge="Suasana Pergudangan" 
+               data-desc="Penataan palet barang tertata rapi, bersih, dan terlindung dari cuaca ekstrem.">
+            <div class="gallery-img-wrapper">
+              <img src="assets/galeri-2.jpg" alt="Suasana fasilitas pergudangan transit logistik Cipayung Jakarta" class="gallery-img" loading="lazy">
+              <div class="gallery-zoom-hint">
+                <i class="fa-solid fa-magnifying-glass-plus"></i>
+                <span>Lihat Foto Penuh</span>
+              </div>
+              <div class="gallery-overlay">
+                <span class="gallery-badge"><i class="fa-solid fa-dolly"></i> Suasana Pergudangan</span>
+                <div class="gallery-caption">
+                  <h3 class="caption-title">Gudang Transit Cipayung</h3>
+                  <p class="caption-text">Penataan palet barang tertata rapi, bersih, dan terlindung dari cuaca ekstrem.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Portrait Card 3 -->
+          <div class="gallery-card card-portrait" 
+               data-index="3" 
+               data-src="assets/galeri-3.jpg" 
+               data-title="Pemeriksaan Dokumen & Muatan" 
+               data-badge="Quality Control" 
+               data-desc="Verifikasi akurat surat jalan, penimbangan digital, dan segel resmi pengiriman.">
+            <div class="gallery-img-wrapper">
+              <img src="assets/galeri-3.jpg" alt="Pemeriksaan dokumen muatan kargo surat jalan dan label manifest" class="gallery-img" loading="lazy">
+              <div class="gallery-zoom-hint">
+                <i class="fa-solid fa-magnifying-glass-plus"></i>
+                <span>Lihat Foto Penuh</span>
+              </div>
+              <div class="gallery-overlay">
+                <span class="gallery-badge"><i class="fa-solid fa-clipboard-check"></i> Quality Control</span>
+                <div class="gallery-caption">
+                  <h3 class="caption-title">Pemeriksaan Dokumen & Muatan</h3>
+                  <p class="caption-text">Verifikasi akurat surat jalan, penimbangan digital, dan segel resmi pengiriman.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Portrait Card 4 -->
+          <div class="gallery-card card-portrait" 
+               data-index="4" 
+               data-src="assets/galeri-4.jpg" 
+               data-title="Fasilitas Armada Truk" 
+               data-badge="Armada Truk Ekspedisi" 
+               data-desc="Armada CDD, Fuso, dan Tronton terawat prima melayani pengantaran rute Jawa, Sumatera & Pelabuhan.">
+            <div class="gallery-img-wrapper">
+              <img src="assets/galeri-4.jpg" alt="Fasilitas armada truk ekspedisi logistik SL Express siap jalan" class="gallery-img" loading="lazy">
+              <div class="gallery-zoom-hint">
+                <i class="fa-solid fa-magnifying-glass-plus"></i>
+                <span>Lihat Foto Penuh</span>
+              </div>
+              <div class="gallery-overlay">
+                <span class="gallery-badge"><i class="fa-solid fa-truck-fast"></i> Armada Truk Ekspedisi</span>
+                <div class="gallery-caption">
+                  <h3 class="caption-title">Fasilitas Armada Truk</h3>
+                  <p class="caption-text">Armada CDD, Fuso, dan Tronton terawat prima melayani pengantaran rute Jawa, Sumatera & Pelabuhan.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <!-- ==================== FAQ SECTION ==================== -->
     <section class="section section-white" id="faq">
       <div class="container">
@@ -1165,7 +1483,7 @@
           <div class="cta-badge"><i class="fa-solid fa-tag"></i> PENAWARAN TARIF SPESIAL</div>
           <h2 class="cta-title">Siap Kirim Kargo Dari Jakarta Hari Ini?</h2>
           <p class="cta-desc">
-            Dapatkan penawaran tarif terjangkau mulai dari Rp4.500/Kg dan konsultasi gratis untuk pengiriman kargo ke Batam, Kepulauan Riau, serta seluruh kota di Nusantara.
+            Dapatkan penawaran tarif terjangkau promo mulai dari <strong>Rp3.500/Kg</strong> (Spesial Rute Jakarta &rarr; Batam/Kepri) dan konsultasi gratis untuk pengiriman kargo ke seluruh kota di Nusantara.
           </p>
           <div class="cta-btn-group">
             <a href="https://wa.me/628111319553?text=Halo%20Admin%20SL%20Express,%20saya%20siap%20kirim%20barang%20dari%20Jakarta.%20Mohon%20info%20penjemputan" target="_blank" rel="noopener noreferrer" class="btn btn-accent btn-lg pulse-glow">
@@ -1220,7 +1538,7 @@
         <div class="footer-col">
           <h3 class="footer-title">Rute Populer</h3>
           <ul class="footer-links">
-            <li><a href="#tarif"><i class="fa-solid fa-chevron-right"></i> Jakarta &harr; Batam (Prioritas)</a></li>
+            <li><a href="#tarif"><i class="fa-solid fa-chevron-right"></i> Jakarta &harr; Batam (Mulai Rp3.500/kg)</a></li>
             <li><a href="#tarif"><i class="fa-solid fa-chevron-right"></i> Jakarta &harr; Tanjung Pinang</a></li>
             <li><a href="#tarif"><i class="fa-solid fa-chevron-right"></i> Jakarta &harr; Tg. Balai Karimun</a></li>
             <li><a href="#tarif"><i class="fa-solid fa-chevron-right"></i> Jakarta &harr; Natuna & Anambas</a></li>
@@ -1256,12 +1574,14 @@
       <div class="footer-bottom">
         <div class="footer-bottom-flex">
           <p class="copyright">
-            &copy; <span id="currentYear">2026</span> <strong>PT. Smail Logistik Express (SL Express)</strong>. Hak Cipta Dilindungi Undang-Undang.
+            &copy; <span id="currentYear">2026</span> <strong>PT. Smail Logistik Express (SL Express)</strong>. Hak Cipta Dilindungi Undang-Undang. • Website designed & developed by <a href="https://wa.me/6285729515776?text=Halo%20HOB%20Digital,%20saya%20tertarik%20untuk%20konsultasi%20jasa%20pembuatan%20website" target="_blank" rel="noopener noreferrer" style="color: #60A5FA; font-weight: 600; text-decoration: underline;">HOB Digital</a>
           </p>
           <div class="footer-bottom-links">
             <a href="#hero">Beranda</a>
             <span>•</span>
             <a href="#tarif">Daftar Tarif</a>
+            <span>•</span>
+            <a href="#galeri">Galeri</a>
             <span>•</span>
             <a href="#faq">FAQ</a>
             <span>•</span>
@@ -1271,6 +1591,144 @@
       </div>
     </div>
   </footer>
+
+  <!-- ==================== PICKUP & KONSULTASI MODAL ==================== -->
+  <div class="modal-backdrop" id="bookingModalBackdrop">
+    <div class="modal-dialog" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+      <div class="modal-header">
+        <div class="modal-header-content">
+          <span class="modal-badge"><i class="fa-solid fa-truck-pickup"></i> Layanan Prioritas</span>
+          <h3 class="modal-title" id="modalTitle">Formulir Penjemputan / Konsultasi Kargo</h3>
+          <p class="modal-desc">Isi rincian pengiriman Anda untuk mendapatkan jadwal penjemputan armada & penawaran resmi.</p>
+        </div>
+        <button type="button" class="modal-close" id="closeBookingModal" aria-label="Tutup formulir">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+      </div>
+
+      <form id="bookingModalForm" class="modal-form">
+        <div class="modal-grid-2">
+          <div class="form-group">
+            <label for="bookName" class="form-label">Nama Pengirim / Perusahaan *</label>
+            <input type="text" id="bookName" class="form-control" placeholder="Contoh: Bpk. Hendra (PT Maju)" required>
+          </div>
+          <div class="form-group">
+            <label for="bookWa" class="form-label">Nomor WhatsApp Aktif *</label>
+            <input type="tel" id="bookWa" class="form-control" placeholder="08xxxxxxxxxx" required>
+          </div>
+        </div>
+
+        <div class="modal-grid-2">
+          <div class="form-group">
+            <label for="bookOrigin" class="form-label">Alamat Penjemputan (Jakarta & Sekitarnya) *</label>
+            <input type="text" id="bookOrigin" class="form-control" placeholder="Kecamatan / Area Gudang Jakarta" required>
+          </div>
+          <div class="form-group">
+            <label for="bookDest" class="form-label">Kota Tujuan Pengiriman *</label>
+            <select id="bookDest" class="form-control select-control" required>
+              <option value="" disabled selected>Pilih Kota Tujuan...</option>
+              <option value="Batam (Promo Mulai Rp3.500/kg)">Batam (Promo Mulai Rp3.500/Kg)</option>
+              <option value="Tanjung Pinang">Tg. Pinang</option>
+              <option value="Tg. Balai Karimun">Tg. Balai Karimun</option>
+              <option value="Natuna / Anambas / Lingga">Natuna / Anambas / Lingga</option>
+              <option value="Pekanbaru">Pekanbaru</option>
+              <option value="Medan">Medan</option>
+              <option value="Padang">Padang</option>
+              <option value="Lampung">Lampung</option>
+              <option value="Palembang">Palembang</option>
+              <option value="Jambi">Jambi</option>
+              <option value="Denpasar">Denpasar</option>
+              <option value="Pontianak">Pontianak</option>
+              <option value="Kota Lainnya">Kota Lainnya di Indonesia</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="modal-grid-2">
+          <div class="form-group">
+            <label for="bookItemType" class="form-label">Jenis / Nama Barang</label>
+            <input type="text" id="bookItemType" class="form-control" placeholder="Contoh: Sparepart mesin, sembako, perabot">
+          </div>
+          <div class="form-group">
+            <label for="bookEstWeight" class="form-label">Estimasi Berat / Volume</label>
+            <input type="text" id="bookEstWeight" class="form-control" placeholder="Contoh: 150 Kg / 2 Kubik">
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label class="form-label">Layanan Tambahan yang Dibutuhkan</label>
+          <div class="modal-checkbox-group">
+            <label class="checkbox-pill">
+              <input type="checkbox" id="checkPickup" checked>
+              <span><i class="fa-solid fa-truck-pickup"></i> Jemput di Lokasi (Free Pickup Jakarta*)</span>
+            </label>
+            <label class="checkbox-pill">
+              <input type="checkbox" id="checkPacking">
+              <span><i class="fa-solid fa-boxes-packing"></i> Packing Kayu Ekspedisi</span>
+            </label>
+            <label class="checkbox-pill">
+              <input type="checkbox" id="checkInsurance">
+              <span><i class="fa-solid fa-shield-halved"></i> Proteksi Asuransi Kargo</span>
+            </label>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="bookNotes" class="form-label">Catatan Tambahan (Opsional)</label>
+          <textarea id="bookNotes" class="form-control modal-textarea" rows="2" placeholder="Tuliskan jadwal penjemputan yang diinginkan atau instruksi khusus..."></textarea>
+        </div>
+
+        <div class="modal-footer">
+          <button type="submit" class="btn btn-accent btn-full btn-lg">
+            <i class="fa-brands fa-whatsapp"></i> Kirim Permintaan via WhatsApp
+          </button>
+          <span class="modal-note-privacy"><i class="fa-solid fa-lock"></i> Tim operasional SL Express akan merespons dalam &lt; 10 menit pada jam kerja.</span>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- ==================== PREMIUM GALLERY LIGHTBOX MODAL ==================== -->
+  <div class="lightbox-modal" id="galleryLightbox" role="dialog" aria-modal="true" aria-label="Pratinjau Foto Galeri">
+    <div class="lightbox-backdrop" id="lightboxBackdrop"></div>
+    <div class="lightbox-dialog">
+      <!-- Lightbox Header Bar -->
+      <div class="lightbox-top-bar">
+        <div class="lightbox-counter" id="lightboxCounter">
+          <i class="fa-regular fa-image"></i> Foto <span id="currentImgIdx">1</span> dari <span id="totalImgCount">5</span>
+        </div>
+        <button type="button" class="lightbox-close-btn" id="lightboxClose" aria-label="Tutup pratinjau foto">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+      </div>
+
+      <!-- Main Display Area with Navigation Arrows -->
+      <div class="lightbox-stage">
+        <button type="button" class="lightbox-nav-btn prev-btn" id="lightboxPrev" aria-label="Foto sebelumnya">
+          <i class="fa-solid fa-chevron-left"></i>
+        </button>
+
+        <div class="lightbox-img-container">
+          <img src="assets/galeri-5.jpg" alt="Foto Operasional SL Express" class="lightbox-img" id="lightboxImg">
+        </div>
+
+        <button type="button" class="lightbox-nav-btn next-btn" id="lightboxNext" aria-label="Foto berikutnya">
+          <i class="fa-solid fa-chevron-right"></i>
+        </button>
+      </div>
+
+      <!-- Lightbox Caption & Details Bar -->
+      <div class="lightbox-info-bar">
+        <div class="lightbox-badge-wrap">
+          <span class="lightbox-badge" id="lightboxBadge">
+            <i class="fa-solid fa-warehouse"></i> Hub Pusat Jakarta
+          </span>
+        </div>
+        <h3 class="lightbox-title" id="lightboxTitle">Fasilitas Armada Besar & Gudang Pusat Cipayung</h3>
+        <p class="lightbox-desc" id="lightboxDesc">Pergudangan transit strategis dengan area manuver luas untuk truk fuso, tronton, dan kontainer Jakarta Timur.</p>
+      </div>
+    </div>
+  </div>
 
   <!-- ==================== FLOATING WHATSAPP BUTTON (FAB) ==================== -->
   <div class="fab-wrapper" id="fabWhatsapp">
